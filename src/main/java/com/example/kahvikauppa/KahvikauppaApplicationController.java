@@ -11,13 +11,13 @@ public class KahvikauppaApplicationController {
         return "index";
     }
 
-    @GetMapping("/laitteet")
-    public String laitteet() {
-        return "laitteet";
+    @GetMapping("/kahvilaitteet")
+    public String kahvilaitteet() {
+        return "kahvilaitteet";
     }
 
-    @GetMapping("/tuotteet")
-    public String tuotteet() {
-        return "tuotteet";
+    @GetMapping("/kulutustuotteet")
+    public String kulutustuotteet() {
+        return "kulutustuotteet";
     }
 }
